@@ -45,7 +45,6 @@ Node* allocateNode()
     }
     if ((NULL == currentNodePtr->nextNode) && (NULL == currentNodePtr->preNode))
     {
-        /*Do nothing*/
         /*Full of stack*/
     }
     else
